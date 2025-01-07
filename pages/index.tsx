@@ -23,7 +23,7 @@ const IndexPage: NextPage = () => {
 
     return (
         <div className={styles.page}>
-            <button onClick={handleClick} className={styles.button}>ほかのにゃんこも見る</button>
+            <button onClick={handleClick} className={styles.button}>One more cat!</button>
             <div className={styles.frame}>
                 {loading || <img src={imageUrl} className={styles.img}/>}
             </div>
